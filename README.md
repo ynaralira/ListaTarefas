@@ -1,6 +1,6 @@
 # Lista de Tarefas
 Desenvolvido em Javascript, HTML e CSS
-Link: <a href="https://ynaralira.github.io/ListaTarefas/">Acessar projeto</a>
+<p>Link:<a href="https://ynaralira.github.io/ListaTarefas/">Acessar projeto</a> </p>
 
 <h3>Tela principal</h3>
 <img src="img1.png"> 
