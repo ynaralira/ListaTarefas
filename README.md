@@ -1,5 +1,5 @@
 # Lista de Tarefas
-feito em Javascript, HTML e CSS
+Desenvolvido em Javascript, HTML e CSS
 
 <h3>Tela principal</h3>
 <img src="img1.png"> 
