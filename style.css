@@ -171,8 +171,8 @@ button {
     .temas {
         display: flex;
         justify-content: center;
-        width: 7vw;
-        margin: 5vw;
+        width: 10vw;
+        margin: 6vw;
         color: white;
     }
 }
