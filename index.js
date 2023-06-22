@@ -1,6 +1,7 @@
 const button = document.querySelector('.button-add-task') //botão
 const input = document.querySelector('.input-task') // input
 const listaCompleta = document.querySelector('.list-tasks');
+const body = document.querySelector('body');
 
 //array de itens vazia
 let minhaListaDeItens = []
@@ -68,5 +69,20 @@ function temaClaro() {
     document.body.style.backgroundSize = '100vw 100vh';
   }
   
+
+  function escolherImagem(event) {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+
+    reader.onload = function(e) {
+        document.body.style.backgroundImage= "url('" + e.target.result + "')";
+        document.body.style.backgroundRepeat = 'no-repeat';
+        document.body.style.backgroundSize = '100vw 100vh';
+    }
+
+    reader.readAsDataURL(file);
+}
+
+
 //evento de quando clicar
 button.addEventListener('click', adicionarTarefa)
