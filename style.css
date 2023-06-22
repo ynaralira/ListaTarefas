@@ -98,7 +98,7 @@ button {
     display: flex;
     justify-content: center;
     width: 7vw;
-    margin: 10px;
+    margin: 20px;
     color: white;
 }
 
@@ -116,7 +116,6 @@ button {
 .escolherImagem > span{
     margin-bottom: 20px;
 }
-
 
 .task {
     display: flex;
@@ -160,5 +159,20 @@ button {
 
     .input-task {
         width: 100%;
+    }
+
+    .escolherImagem{
+        width: 58vw;
+    }
+
+    .escolherImagem > input{
+        width: 100vw;
+    }
+    .temas {
+        display: flex;
+        justify-content: center;
+        width: 7vw;
+        margin: 5vw;
+        color: white;
     }
 }
