@@ -15,8 +15,15 @@
 
 <body>
     <header>
-        <button class="claro" ="button"  onclick="temaClaro()">Tema Claro</button>
-        <button class="escuro" type="button" onclick="temaEscuro()">Tema Escuro</button>
+        <div class="temas">
+        <button class="claro" ="button"  onclick="temaClaro()"><i class="fi fi-tr-cloud-sun"></i></button>
+        <button class="escuro" type="button" onclick="temaEscuro()"><i class="fi fi-rs-moon-stars"></i></button>
+    </div>
+    <div class="escolherImagem">
+        <span> <i class="fi fi-rr-comet"></i> Escolha seu tema  </span>
+        <input type="file" id="inputFile" onchange="escolherImagem(event)">
+    </div>
+   
     </header>
     <div class="container">
         <input class="input-task" placeholder="O que tenho que fazer...">
